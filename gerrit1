@@ -1,0 +1,1 @@
+java -jar cmdline-jmxclient-0.10.3.jar - 172.16.0.162:12345 java.lang:type=Memory NonHeapMemoryUsage
