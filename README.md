@@ -25,8 +25,12 @@ cat /dev/null > /var/log/httpd/ssl_error_log
 cat /dev/null > /var/log/httpd/ssl_request_log  
  
 cat /dev/null > /var/log/httpd/ssl_access_log 
+
 #!/bin/sh
 git add .
+
 git commit -m "commit"
+
 git commit -m "readme"
+
 git push
